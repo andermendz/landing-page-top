@@ -20,19 +20,23 @@
 
 .box-1{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  
 }
 
 .box-11{
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    
+    gap: 10px;
+    width: 400px;
+
 }
-.box-12{
-    display: flex;
-    padding: 100px;
-}
+
+
+
+
 
 button{
     padding: 8px 30px;
@@ -41,7 +45,8 @@ button{
 }
 
 img{
-    width: 300px;
+    width: 200px;
+    
 }
     
 
