@@ -37,7 +37,7 @@
 }
 
 .box-2{
-    margin: 50px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -74,7 +74,7 @@
 
 .box-3{
     display: flex;
-    margin: 100px;
+    padding: 100px;
     flex-direction: column;
     border: 2px solid red;
     justify-content: center;
@@ -102,7 +102,6 @@
 .box-4{
     border: 2px solid red;
     display: flex;
-    margin: 100px;
     justify-content: center;
     align-items: center;
     padding: 100px;
@@ -111,7 +110,9 @@
 }
 
 .box-41{
-    width: 100%;
+    width: 60%;
+    padding: 50px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,6 +141,7 @@ img{
     
 .footer{
     display: flex;
+    padding: 20px;
     justify-content: center;
     align-items: center;
 }
