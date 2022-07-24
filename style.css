@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.links{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+
+.container{
+    border: 2px solid red;   
+}
+
+
+.box-1{
+  display: flex;
+  justify-content: center;
+}
+
+.box-11{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    
+}
+.box-12{
+    display: flex;
+    padding: 100px;
+}
+
+button{
+    padding: 8px 30px;
+    border-radius: 5px;
+
+}
+
+img{
+    width: 300px;
+}
+    
+
+
+
+
+.footer{
+    align-self:flex-end;
+}
+
+ul{
+    list-style-type: none;
+    border: 2px solid red;
+}
