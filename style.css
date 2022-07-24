@@ -138,15 +138,20 @@ img{
     width: 200px;
 }
     
-
-
-
-
 .footer{
-    align-self:flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 ul{
     list-style-type: none;
     border: 2px solid red;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
 }
