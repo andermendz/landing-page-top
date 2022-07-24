@@ -20,9 +20,11 @@
 
 .box-1{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  gap: 100px;
+  margin: 100px;
+
   
 }
 
@@ -35,10 +37,11 @@
 }
 
 .box-2{
-    margin-top: 50px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
+    border: 2px solid red;
   
 }
 
@@ -69,7 +72,32 @@
     border: 1px solid #bfbffc;
 }
 
+.box-3{
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
 
+.box-31{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.box-311{
+    border: 2px solid red;
+    font-size: 24px;
+}
+
+.box-312{
+    display: flex;
+    border: 2px solid red;
+    align-self: flex-end;
+    margin-right: 20px;
+}
 
 button{
     padding: 8px 30px;
@@ -79,7 +107,6 @@ button{
 
 img{
     width: 200px;
-    
 }
     
 
