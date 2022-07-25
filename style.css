@@ -1,8 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+
+.troll{
+    width: 100px;
+}
+.goku{
+    width: 500px;
+    border-radius: 10%;
+}
 .header{
     display: flex;
-    border: 2px solid red;
+    background-color: #1c2953;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
 }
 
 
@@ -14,7 +29,7 @@
 }
 
 .container{
-    border: 2px solid red;   
+
 }
 
 
@@ -23,7 +38,9 @@
   justify-content: center;
   align-items: center;
   gap: 100px;
-  margin: 100px;
+  padding: 100px;
+  background-color: #1c2953;
+  
 
   
 }
@@ -36,47 +53,61 @@
 
 }
 
+.b1title{
+    font-size: 36px;
+    color: white;
+    font-weight: 900;
+
+}
+
+.b1t{
+    color: white;
+}
+
 .box-2{
     padding: 100px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    border: 2px solid red;
+  
   
 }
 
 .box-21{
     text-align: center;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .box-22{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 16px;
     gap: 20px;
-    
+    text-align: center;
 }
 
 .info{
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
     width: 200px;
     
 }
 
 .icon{
-    width: 100px;
+    width: 150px;
     border-radius: 10px;
-    border: 1px solid #bfbffc;
+    border: 3px solid #1c2953;
 }
 
 .box-3{
     display: flex;
     padding: 100px;
     flex-direction: column;
-    border: 2px solid red;
+    background-color: #fafafa;
     justify-content: center;
     align-items: center;
 }
@@ -85,26 +116,29 @@
     display: flex;
     width: 50%;
     flex-direction: column;
+    gap: 10px;
+    
 }
 
 .box-311{
-    border: 2px solid red;
+   
     font-size: 24px;
+    
 }
 
 .box-312{
     display: flex;
-    border: 2px solid red;
+ 
     align-self: flex-end;
     margin-right: 20px;
 }
 
 .box-4{
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px;
+   
 
     
 }
@@ -116,21 +150,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
+    background-color: #58a5e4;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.b4title{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.b4t{
+    color: white;
 }
 
 button{
-    line-height: 0.1;
-    
-   
-}
-
-.b1{
+    font-size: 20px;
+    line-height: 0.5;
+    border-radius: 10px;
+    font-weight: 900;
+    color: white;
     padding: 10px 20px;
 }
 
+.b1{
+    background-color: #64b8fd;
+
+}
+
 .b2{
-   padding: 10px 20px; 
+   background-color: #58a5e4;
+   border: 3px solid white;
 }
 
 
@@ -140,6 +191,8 @@ img{
 }
     
 .footer{
+ 
+    background-color: #1c2953;
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -147,13 +200,11 @@ img{
 }
 
 
-
 ul{
     list-style-type: none;
-    border: 2px solid red;
+   
 }
 
-*{
-    padding: 0px;
-    margin: 0px;
+a{
+    color: white;
 }
